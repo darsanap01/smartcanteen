@@ -5,7 +5,6 @@ class MenuProvider with ChangeNotifier {
 
 List<FoodItem> _menu = [
 
-  /// 🍔 SNACKS
   FoodItem(
     name: "Burger",
     price: 50,
@@ -31,7 +30,6 @@ List<FoodItem> _menu = [
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
   ),
 
-  /// 🍕 MEALS
   FoodItem(
     name: "Pizza",
     price: 100,
@@ -57,7 +55,6 @@ List<FoodItem> _menu = [
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
   ),
 
-  /// 🥤 DRINKS
   FoodItem(
     name: "Juice",
     price: 30,
@@ -87,25 +84,21 @@ List<FoodItem> _menu = [
 
   List<FoodItem> get menu => _menu;
 
-  /// ➕ Add Item
   void addItem(FoodItem item) {
     _menu.add(item);
     notifyListeners();
   }
 
-  /// 🗑 Delete Item
   void deleteItem(int index) {
     _menu.removeAt(index);
     notifyListeners();
   }
 
-  /// ✏ Edit Item
   void updateItem(int index, FoodItem newItem) {
     _menu[index] = newItem;
     notifyListeners();
   }
 
-  /// 🟢 Toggle Availability
   void toggleAvailability(int index, bool value) {
     _menu[index].available = value;
     notifyListeners();

@@ -90,7 +90,6 @@ class AdminDashboard extends StatelessWidget {
         child: Column(
           children: [
 
-            /// 📊 Stats Row
             Row(
               children: [
                 Expanded(
@@ -113,7 +112,6 @@ class AdminDashboard extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            /// ⚡ Action Grid
             Expanded(
               child: GridView.count(
                 crossAxisCount: 2,
