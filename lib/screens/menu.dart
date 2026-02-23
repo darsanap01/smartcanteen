@@ -37,7 +37,6 @@ class _MenuScreenState extends State<MenuScreen> {
       body: Column(
         children: [
 
-          /// 📂 Category Tabs
           SizedBox(
             height: 60,
             child: ListView.builder(
@@ -72,7 +71,6 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
           ),
 
-          /// 🍔 Food Grid
           Expanded(
             child: GridView.builder(
               padding: const EdgeInsets.all(12),

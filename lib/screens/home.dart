@@ -65,7 +65,6 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
 
-              /// 🔝 Header
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Row(
@@ -81,7 +80,6 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
 
-                    /// 🛒 Cart with Badge
                     Stack(
                       children: [
                         IconButton(
@@ -117,7 +115,6 @@ class HomeScreen extends StatelessWidget {
 
               const SizedBox(height: 20),
 
-              /// 🧊 Main Card Section
               Expanded(
                 child: Container(
                   padding: const EdgeInsets.all(20),

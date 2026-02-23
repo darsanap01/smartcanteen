@@ -48,7 +48,6 @@ class OrderHistoryScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
 
-                        /// Order Title
                         Text(
                           "Order ${i + 1}",
                           style: const TextStyle(
@@ -58,7 +57,6 @@ class OrderHistoryScreen extends StatelessWidget {
 
                         const SizedBox(height: 5),
 
-                        /// Items
                         Text(
                           "Items: ${order.items.map((e) => e.name).join(", ")}",
                         ),
@@ -67,14 +65,12 @@ class OrderHistoryScreen extends StatelessWidget {
 
                         const Divider(),
 
-                        /// Delivery Details
                         Text("Name: ${order.name}"),
                         Text("Block: ${order.block}"),
                         Text("Room: ${order.room}"),
 
                         const Divider(),
 
-                        /// Time
                         Text(
                           "Time: ${order.dateTime.hour}:${order.dateTime.minute.toString().padLeft(2, '0')}",
                         ),
@@ -86,7 +82,6 @@ class OrderHistoryScreen extends StatelessWidget {
 
                         const SizedBox(height: 10),
 
-                        /// 🔴 LIVE STATUS BADGE
                         Container(
                           padding: const EdgeInsets.symmetric(
                               horizontal: 12, vertical: 6),

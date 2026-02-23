@@ -115,7 +115,6 @@ class AdminManageMenuScreen extends StatelessWidget {
               trailing: Column(
                 children: [
 
-                  /// Availability Toggle
                   Switch(
                     value: item.available,
                     onChanged: (val) {
