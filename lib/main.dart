@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:smartcanteen/provider/menu_provider.dart';
 import 'package:smartcanteen/provider/order_provider.dart';
-import 'package:smartcanteen/screens/login.dart';
 import 'package:smartcanteen/screens/userlogin.dart';
 
 
