@@ -18,6 +18,7 @@ class OrderHistoryScreen extends StatelessWidget {
     }
   }
 
+
   @override
   Widget build(BuildContext context) {
     var orders = context.watch<OrderProvider>().orders;
@@ -68,16 +69,16 @@ class OrderHistoryScreen extends StatelessWidget {
                         Text("Name: ${order.name}"),
                         Text("Block: ${order.block}"),
                         Text("Room: ${order.room}"),
-
                         const Divider(),
 
                         Text(
-                          "Time: ${order.dateTime.hour}:${order.dateTime.minute.toString().padLeft(2, '0')}",
+                          "Time: ${order.dateTime.hour}:${order.dateTime.minute.
+                          toString().padLeft(2, '0')}",
                         ),
 
-                        /// Date
                         Text(
-                          "Date: ${order.dateTime.day}/${order.dateTime.month}/${order.dateTime.year}",
+                          "Date: ${order.dateTime.day
+                          }/${order.dateTime.month}/${order.dateTime.year}",
                         ),
 
                         const SizedBox(height: 10),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:smartcanteen/provider/menu_provider.dart';
 import 'package:smartcanteen/provider/order_provider.dart';
+import 'package:smartcanteen/screens/register.dart';
 import 'package:smartcanteen/screens/userlogin.dart';
 
 
@@ -26,7 +27,7 @@ class SmartCanteenApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Smart Canteen',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home:  LoginPagee(),
+      home:  RegisterPage()
     );
   }
 }

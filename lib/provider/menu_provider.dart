@@ -15,20 +15,17 @@ List<FoodItem> _menu = [
     name: "Sandwich",
     price: 40,
     category: "Snacks",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DHqoIPhtlRft2B96FmZ8vHnTdyY0qQXSOQ&s",
-  ),
+image: "https://images.unsplash.com/photo-1553909489-cd47e0907980",  ),
   FoodItem(
     name: "French Fries",
     price: 60,
     category: "Snacks",
-    image: "https://www.kannammacooks.com/wp-content/uploads/french-fries-recipe.jpg",
-  ),
+image: "https://images.unsplash.com/photo-1576107232684-1279f390859f"  ),
   FoodItem(
     name: "Samosa",
     price: 20,
     category: "Snacks",
-    image: "https://static.toiimg.com/thumb/53723352.cms?imgsize=212203&width=800&height=800",
-  ),
+image: "https://images.unsplash.com/photo-1601050690597-df0568f70950"  ),
 
   FoodItem(
     name: "Pizza",
@@ -40,8 +37,7 @@ List<FoodItem> _menu = [
     name: "Chicken Roll",
     price: 70,
     category: "Meals",
-    image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/chicken-kathi-roll-chicken-frankie.jpg",
-  ),
+    image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d",),
   FoodItem(
     name: "Fried Rice",
     price: 90,
@@ -52,8 +48,7 @@ List<FoodItem> _menu = [
     name: "Meals Combo",
     price: 120,
     category: "Meals",
-    image: "https://images.jdmagicbox.com/v2/comp/bangalore/l6/080pxx80.xx80.220405230905.v4l6/catalogue/madras-meal-company-marathahalli-bangalore-restaurants-hw726q8u7i.jpg",
-  ),
+image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",  ),
 
   FoodItem(
     name: "Juice",
